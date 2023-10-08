@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/profile1.jpg" type="image/jpg">
+
+    <title>Portfolio Website - Pankaj Mandloi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9246ff0f0c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <div id="header" class="parallax-bg">
+        <div class="container">
+            <nav>
+                <div class="title"><span class="text-purple">😎 𝓟𝓐</span>𝓝𝓚𝓐𝓙 𝓜𝓐𝓝𝓓𝓛𝓞𝓘. <span class="text-purple"></span>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div>Hi! My name is</div>
+                <div class="text-purple">Pankaj Mandloi</div>
+                <div>and I am a </div>
+                <div><span id="typed-output"></span></div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/profile1.jpg" alt="A portfolio picture of Pankaj Mandloi">
+                    <div><a class="btn" href="https://www.linkedin.com/in/pankaj-mandloi-75b41024a/" target="_blank">Visit LinkedIn</a></div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span class="text-purple">A</span>bout Me<span class="text-purple">.</span>
+                    </h1>
+                    <p class="summary">Hello! I'm a Web Developer, and I have a knack for crafting websites that are not just functional but also look really cool. I use HTML, CSS, and JavaScript to bring design ideas to life. Teamwork is my thing, and I'm all about delivering awesome solutions pronto. If you've got a project in the works, let's team up and make it shine, using my skills to make sure users have a fantastic experience!.
+                        refresh it</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span class="text-purple">Problem Solving & Database</span><br>
+                                <span>Data Structures & Algorithms, MySql</span>
+                            </li>
+                            <li>
+                                <span class="text-purple">Programming Languages</span><br>
+                                <span>C++, Java, HTML, CSS, JavaScript</span>
+                            </li>
+                            <li>
+                                <span class="text-purple">Core Subjects</span><br>
+                                <span>DBMS, Operating System, Networking, OOPs</span>
+                            </li>
+                            <li>
+                                <span class="text-purple">Tools / Platforms</span><br>
+                                <span>Visual Studio Code, Eclipse, Jupyter Notebook</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span class="text-purple">Web Developer Intern at <a href="https://letsgrowmore.in/" target="_blank">Let's Grow More</a> (September 2023)</span><br>
+                                <span>Creating dynamic and responsive user interfaces</span><br>
+                                <span>Applying HTML, CSS, JavaScript,  and modern web technologies</span>
+                            </li>
+                            <li>
+                                <span class="text-purple">C++ Intern at <a href="https://www.codsoft.in/" target="_blank">CodSoft</a> (August 2023 to September 2023)</span><br>
+                                <span>Developing applications using C++ programming language</span><br>
+                                <span>Designing and implementing solutions with a focus on efficiency and performance</span>
+                            </li>
+                            <li>
+                                <span class="text-purple">Web Developer Trainee at <a href="https://www.codsoft.in/" target="_blank">CodSoft</a> (August 2023 to September 2023)</span><br>
+                                <span>Building user interfaces with a focus on front-end technologies</span><br>
+                                <span>Applying HTML, CSS, JavaScript, and integrating with back-end services</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span class="text-purple"><a href="https://www.bitmesra.ac.in/" target="_blank">Birla Institute of technology, Mesra.</a> (August 2022 to Present)</span><br>
+                                <span>Master of Computer Application.</span><br>
+                                <span>Have GPA of 7.21 and 7.3102 in 1<sup>st</sup> and 2<sup>nd</sup> Semesters</span>
+                            </li>
+                            <li>
+                                <span class="text-purple"><a href="http://www.mrscindore.org/" target="_blank">Maharaja Ranjit singh college 
+                                    of Professional sciences Indore.</a> (August 2019 to July 2022)</span><br>
+                                <span>Bsc (Computer Science).</span><br>
+                                <span>Graduated with a GPA of 8.0</span>
+                            </li>
+                            <li>
+                                <span class="text-purple"><a href="https://school.careers360.com/schools/nirmal-vidhyapeeth-barwaha-khargone" target="_blank">Nirmal Vidhyapeeth Barwaha ,
+                                    Khargone , Madhya Pradesh.</a> (March 2019)</span><br>
+                                <span>Central Board of Secondary Education (CBSE).</span><br>
+                                <span>Passed in first division with distinction having 70%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span class="text-purple">M</span>y services<span class="text-purple">.</span></h1>
+            <div class="services-list">
+        
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2 class="text-purple">Software Development</h2>
+                    <p>Results-driven Software Developer with expertise in coding, problem-solving, and collaborative
+                        development. Committed to delivering efficient and innovative solutions.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 class="text-purple">Web Development</h2>
+                    <p>Experienced Web Developer proficient in front-end and back-end technologies. Crafting responsive,
+                        user-centric websites for seamless digital experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"><span class="text-purple">M</span>y works<span class="text-purple">.</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/Netflix.png">
+                    <div class="layer">
+                        <h3>NetflixCloneHome</h3>
+                        <p>Simple homepage similar to Netflix, using HTML and CSS.</p>
+                        <a href="https://github.com/pankaj-mandloi/NetflixCloneHome." target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/lib-mng-sys-thumbnail.png">
+                    <div class="layer">
+                        <h3>User-Authentication-System.</h3>
+                        <p>User Authentication System in C++ with File Handling.</p>
+                        <a href="https://github.com/pankaj-mandloi/User-Authentication-System./tree/main/Login-Form-In-CPP-main" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/River_info.png">
+                    <div class="layer">
+                        <h3>River-Information-Mobile-Application.</h3>
+                        <p>Made using Java, CSV Files, Data Parsing, Object-Oriented Programming (OOP).</p>
+                        <a href="https://github.com/pankaj-mandloi/River-Information-Mobile-Application" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div><a class="btn" href="https://github.com/pankaj-mandloi" target="_blank">More at GitHub</a></div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><span class="text-purple">C</span>ontact Me<span class="text-purple">.</span>
+                    </h1>
+                    <div class="email">
+                        <p><i class="fa-solid fa-square-envelope"></i>mandloipankaj2000@gmail.com</p>
+                    </div>
+                    <div class="phone">
+                        <p><i class="fa-solid fa-square-phone"></i>6263995699</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/pankaj-mandloi-75b41024a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/pankaj-mandloi" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/pankaj_gurjar142/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div><a class="btn" href="https://drive.google.com/file/d/1TFdDlZ86A8X_5ZhtFVN7j6qYgMSJHsE7/view?usp=drive_link" download>Download resume</a></div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name ..." required>
+                        <input type="text" name="E-mail" placeholder="Enter your email ..." required>
+                        <textarea name="Message" rows="6" placeholder="Enter your message ..."></textarea>
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                    <span id="submit-message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i>Pankaj Mandloi</p>
+        </div>
+    </div>
+
+    <!-- For contact form -->
+    <script>
+        const scriptURL = 'https://docs.google.com/spreadsheets/d/12ye1GwNTbD8CcbmLE2g5gSOelitTTlSClsfChRDTWZg/edit#gid=0'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('submit-message')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Submitted successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- For parallax effect -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const parallaxSections = document.querySelectorAll('.parallax-bg');
+
+            window.addEventListener('scroll', function () {
+                parallaxSections.forEach(section => {
+                    if (section.getBoundingClientRect().top <= window.innerHeight / 2) {
+                        section.classList.add('scroll-down');
+                    } else {
+                        section.classList.remove('scroll-down');
+                    }
+
+                    // Remove 'scroll-down' class when section is back at the top
+                    if (section.getBoundingClientRect().top >= 0) {
+                        section.classList.remove('scroll-down');
+                    }
+                });
+            });
+        });
+    </script>
+
+
+    <!-- For creating a sidebar menu -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- To hide the active tab and show the clicked tab -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-- Using Typed.js for typing animation - repeated -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typedInstance;
+
+        function startTypedAnimation() {
+            const options = {
+                strings: ["Software Developer.", "Web Developer."],
+                typeSpeed: 50,
+                backSpeed: 30,
+            };
+
+            typedInstance = new Typed("#typed-output", options);
+        }
+
+        function restartTypedAnimation() {
+            setTimeout(() => {
+                typedInstance.destroy();
+
+                // Clear the typed output element
+                const typedElement = document.getElementById("typed-output");
+                typedElement.innerHTML = "";
+
+                // Start a new Typed instance
+                startTypedAnimation();
+
+                restartTypedAnimation();
+            }, 15000);
+        }
+
+        startTypedAnimation();
+
+        restartTypedAnimation();
+    </script>
+</body>
+
+</html>
